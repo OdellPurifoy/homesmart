@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script');
+
+/*bacground image styles*/
+body{
+    height: 1080px;
+    background: url('images/home.jpeg') center center no-repeat scroll;   
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/*navbar styles*/
+.navbar-inverse{
+    font-family: 'Petit Formal Script', cursive;
+    background-color: transparent;
+    border: none;   
+    padding-left: 600px;
+}
+
+
+.navbar-inverse .navbar-nav>li>a{
+    color: white;
+}
+/* heading stylea*/
+h1{
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 80px;
+    color: #C0B283;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: white;
+    border-bottom: solid #C0B283 10px;
+    opacity: 0.9;
+}
+
