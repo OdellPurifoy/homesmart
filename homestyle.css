@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/*bacground image styles*/
+.bgimage{
+    height: 600px;
+    padding-top: 50px;
+    background: url('images/home.jpeg');   
+    background-position: center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    opacity: 1;
+}
+
+body{
+    background-color: #C0B283;
+}
+/*navbar styles*/
+.navbar-inverse{
+    font-family: Helvetica, sans-serif;
+    background-color: white;
+    border-bottom: solid 1px #C0B283;
+    padding-top: 5px;
+    
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color: black;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: black;
+    background-color: #C0B283;
+}
+
+
+/* heading stylea*/
+h1{
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 80px;
+    color: #C0B283;
+    text-shadow: 1px 1px black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+    border-bottom: solid #C0B283 10px;
+    box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, .2);
+    opacity: 1;
+}
+
+h2 {
+    font-family: 'Petit Formal Script', cursive;
+    color: black;
+    text-shadow: 2px 2px white;
+    padding-top: 25px;
+}
+
+#intro{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: black;
+    line-height: 21px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: white;
+    border-bottom: solid #C0B283 10px;
+    box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, .2);
+}
+
+#introDiv{
+    padding-top: 50px;
+}
+
+#button{
+    padding-top: 50px;
+}
+
+.social{
+    color: black;
+}
+
+.social:hover{
+    color: black;
+}
